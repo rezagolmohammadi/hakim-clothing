@@ -8,7 +8,7 @@ import CartIcon from '../cartIcon/cartIcon';
 import CartDropdown from '../cartDropdown/cartDropdown';
 import { createStructuredSelector} from 'reselect';
 import { selectCartHidden } from '../../redux/cart/cart.selectors';
-import { selectCurrentUser } from '../../redux/user/user.selector';
+import { selectCurrentUser } from '../../redux/user/user.selectors';
 
 const Header = ({ currentUser, hidden}) => {
   return(
